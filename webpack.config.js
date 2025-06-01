@@ -45,6 +45,14 @@ module.exports = {
                     singleton: true,
                     eager: true,
                 },
+                "common-utils": {
+                    singleton: true,
+                    eager: true,
+                },
+                rxjs: {
+                    singleton: true,
+                    eager: true,
+                },
             },
         }),
         new HtmlWebpackPlugin({
