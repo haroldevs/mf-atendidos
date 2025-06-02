@@ -3,3 +3,4 @@ dist
 pnpm-lock.yaml
 .vscode
 .DS_Store
+shared-libs/

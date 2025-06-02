@@ -12,9 +12,9 @@
   "license": "ISC",
   "packageManager": "pnpm@10.11.0",
   "dependencies": {
-    "common-utils": "file:..\\libs\\common-utils\\common-utils-1.0.0.tgz",
-    "common-resources": "link:../libs/common-resources",
-    "common-components-react": "file:../libs/common-components-react/common-components-react-1.0.0.tgz",
+    "common-utils": "file:./shared-libs/common-utils-1.0.0.tgz",
+    "common-resources": "link:./shared-libs/common-resources",
+    "common-components-react": "file:./shared-libs/common-components-react-1.0.0.tgz",
     "dotenv": "^16.5.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"

@@ -5,9 +5,7 @@ WORKDIR /app
 RUN npm install -g pnpm
 
 COPY package.json ./
-
-RUN  grep -v '"common-utils"' > package.temp.json && \
-    mv package.temp.json package.json
+COPY ./shared-libs/ ./shared-libs/
 
 RUN pnpm install && pnpm add rxjs
 
