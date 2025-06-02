@@ -12,6 +12,8 @@
   "packageManager": "pnpm@10.11.0",
   "dependencies": {
     "common-utils": "file:..\\libs\\common-utils\\common-utils-1.0.0.tgz",
+    "common-resources": "link:../libs/common-resources",
+    "dotenv": "^16.5.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
