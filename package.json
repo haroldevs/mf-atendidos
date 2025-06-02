@@ -11,7 +11,7 @@
   "license": "ISC",
   "packageManager": "pnpm@10.11.0",
   "dependencies": {
-    "common-utils": "file:../common-utils/common-utils-1.0.0.tgz",
+    "common-utils": "file:..\\libs\\common-utils\\common-utils-1.0.0.tgz",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
