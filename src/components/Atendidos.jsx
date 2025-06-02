@@ -7,7 +7,7 @@ const Atendidos = () => {
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
   const handleSubmit =  () => {
-    setSubmit(true);
+    setSubmit(!submit);
     bus.next({
       topic: 'atendidos',
       data: {
